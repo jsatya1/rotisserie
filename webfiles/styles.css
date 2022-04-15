@@ -31,13 +31,13 @@ body {
     padding: 0;
 }
 
-.logoHeader {
+.header {
     text-align: center;
     background-color: black;
     width: 100%;
 }
 
-.logoImg {
+.logo {
     height: 170px;
 }
 
