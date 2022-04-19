@@ -1,22 +1,20 @@
+/* mini reset CSS */
+
 html,body,div,form,fieldset,legend,label {
     margin:0;
     padding:0;
 }
-
 table {
     border-collapse:collapse;
     border-spacing:0;
 }
-
 th,td {
     text-align:left;
     vertical-align:top;
 }
-
 h1,h2,h3,h4,h5,h6,th,td,caption {
     font-weight:normal;
 }
-
 img {
     border:0;
 }
@@ -27,7 +25,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.mainDiv {
+.topDiv {
     padding: 0;
 }
 
@@ -41,4 +39,23 @@ body {
     height: 170px;
 }
 
+.navbar {
+    background-color: black;
+}
 
+.nav-link {
+    color: #999999 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #4D4D4D !important;
+}
+
+ul {
+    text-align: center;
+}
+
+@media only screen and (max:width: 992px) {
+    
+}
