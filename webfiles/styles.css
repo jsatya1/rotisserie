@@ -12,9 +12,6 @@ th,td {
     text-align:left;
     vertical-align:top;
 }
-h1,h2,h3,h4,h5,h6,th,td,caption {
-    font-weight:normal;
-}
 img {
     border:0;
 }
@@ -64,4 +61,30 @@ body {
 
 ul {
     text-align: center;
+}
+
+.about {
+    height: 800px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 0.9rem;
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 2px;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 0.6rem;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 8px;
 }
