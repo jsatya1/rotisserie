@@ -43,19 +43,25 @@ body {
     background-color: black;
 }
 
+.navbar-toggler {
+    border: 1px solid black !important;
+}
+
+.navbar-toggler:hover {
+    border: 1px solid #999999 !important;
+}
+
 .nav-link {
     color: #999999 !important;
     font-weight: bold;
+    padding-left: 3rem !important;
+    padding-right:3rem !important;
 }
 
 .nav-link:hover {
-    color: #4D4D4D !important;
+    color: white !important;
 }
 
 ul {
     text-align: center;
-}
-
-@media only screen and (max:width: 992px) {
-    
 }
