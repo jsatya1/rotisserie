@@ -1,24 +1,8 @@
 /* mini reset CSS */
 
-html,body,div,form,fieldset,legend,label {
-    margin:0;
-    padding:0;
-}
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-th,td {
-    text-align:left;
-    vertical-align:top;
-}
-img {
-    border:0;
-}
-
-/* spacer */
-
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -63,10 +47,6 @@ ul {
     text-align: center;
 }
 
-.about {
-    height: 800px;
-}
-
 .footer {
     display: flex;
     align-items: center;
@@ -99,7 +79,6 @@ ul {
 }
 
 .aboutUs {
-    text-align: center;
     display: block;
     font-size: 2rem;
     font-weight: bold;
@@ -108,5 +87,9 @@ ul {
 @media (max-width: 991px) {
     .profileText {
         padding-top: 0%
+    }
+
+    .aboutUs {
+        text-align: center;
     }
 }
