@@ -89,12 +89,24 @@ ul {
     padding-bottom: 8px;
 }
 
-.profileImage, .profileText {
-    padding: 5% 3% 5% 0;
+.profileImage {
+    padding: 5% 0;
+    margin: auto;
+}
+
+.profileText {
+    padding-top: 8%
 }
 
 .aboutUs {
+    text-align: center;
     display: block;
     font-size: 2rem;
     font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    .profileText {
+        padding-top: 0%
+    }
 }
