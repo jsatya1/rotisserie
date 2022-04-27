@@ -88,3 +88,13 @@ ul {
     padding-top: 2px;
     padding-bottom: 8px;
 }
+
+.profileImage, .profileText {
+    padding: 5% 3% 5% 0;
+}
+
+.aboutUs {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
