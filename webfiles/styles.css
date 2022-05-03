@@ -70,7 +70,7 @@ ul {
     padding-top: 8%
 }
 
-.aboutUs {
+.heading {
     color: #7ECA9C;
     display: block;
     font-size: 2rem;
@@ -81,6 +81,9 @@ ul {
     background-image: url("img/strip1.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -92,9 +95,18 @@ ul {
     color: #7ECA9C;
 }
 
-.moreInfo {
+.customBtn {
     background-color: #40394A;
     color: #CCFFBD;
+}
+
+.modal-title {
+    color: #7ECA9C;
+    font-weight: bold;
+}
+
+.modal-body {
+    text-align: left;
 }
 
 .footer {
@@ -119,7 +131,7 @@ ul {
     padding-bottom: 8px;
 }
 
-
+/* @media for mobile */
 @media (max-width: 991px) {
     .profileText {
         padding-top: 0%
@@ -128,15 +140,15 @@ ul {
     .aboutUs {
         text-align: center;
     }
+    .topCard {
+        padding-top: 20px;
+    }
 }
 
-/*
-ALL:
-add modal
+/* @media for desktop */
+@media (min-width: 991px) {
+    .infoCards {
+        height: 400px;
+    }
 
-Mobile:
-add padding above cards
-
-Desktop:
-change height of strip1
- */
+}

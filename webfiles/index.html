@@ -86,7 +86,7 @@
             </div>
             <div class="col-lg-6 col-md-12">
                 <p class="profileText">
-                    <span class="aboutUs">About Us</span>
+                    <span class="heading">About Us</span>
                     Chef Steven Pernetti began his culinary career flipping pizzas at the age of 14,
                     and by 19, worked for the InterContinental Hotel in NYC and San Diego. Working
                     his way through restaurants on both coasts, Chef Pernetti became the Executive
@@ -115,9 +115,9 @@
     <!-- info cards -->
     <div class="container-fluid pt-4 pb-5 infoCards">
         <div class="container">
-            <div class="row row-cols-1 row-cols-xl-3 g-4">
-                <div class="col">
-                    <div class="card">
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col topCard">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title text-center">Events</h5>
                                 <p class="card-text">
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title text-center">Setups</h5>
                                 <p class="card-text">
@@ -144,9 +144,26 @@
                                     Our smoke-free, drip-free, rotisserie ovens which allow us to cook on-site (outdoor or indoor) and serve each guest individually. Click below to find out more about the secret to our success!
                                 </p>
                                 <div class="container text-center">
-                                    <button type="button" class="btn moreInfo" data-bs-toggle="modal" data-bs-target="#moreInfo">
+                                    <button type="button" class="btn customBtn" data-bs-toggle="modal" data-bs-target="#moreInfo">
                                         More info!
                                     </button>
+                                    <!-- start of modal -->
+                                    <div class="modal fade" id="moreInfo" tabindex="-1" aria-labelledby="moreinfo" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="moreInfo">The Secret to our Success</span></h5>
+                                                </div>
+                                                <div class="modal-body">
+                                                text / pictures describing rotisserie machine
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn customBtn" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- end of modal -->
                                 </div>                                
                         </div>
                     </div>
