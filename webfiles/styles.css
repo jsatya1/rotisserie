@@ -96,8 +96,17 @@ ul {
     font-weight: bold;
 }
 
+/* .firstImageStrip {
+    height: 200px;
+} */
+
+.strip1 {
+    width: 100%
+    
+}
+
 .infoCards {
-    background-color: #CCFFBD !important;
+    background-color: #7ECA9C !important;
 }
 
 .card {
@@ -107,6 +116,11 @@ ul {
 
 .card-title {
     color: #7ECA9C;
+}
+
+.moreInfo {
+    background-color: #40394A;
+    color: #CCFFBD;
 }
 
 @media (max-width: 991px) {
