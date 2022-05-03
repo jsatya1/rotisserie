@@ -61,6 +61,42 @@ ul {
     text-align: center;
 }
 
+.profileImage {
+    padding: 5% 0;
+    margin: auto;
+}
+
+.profileText {
+    padding-top: 8%
+}
+
+.aboutUs {
+    color: #7ECA9C;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.infoCards {
+    background-image: url("img/strip1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card {
+    border: 2px solid #40394A !important;
+    border-radius: 9px;
+}
+
+.card-title {
+    color: #7ECA9C;
+}
+
+.moreInfo {
+    background-color: #40394A;
+    color: #CCFFBD;
+}
+
 .footer {
     display: flex;
     align-items: center;
@@ -83,48 +119,6 @@ ul {
     padding-bottom: 8px;
 }
 
-.profileImage {
-    padding: 5% 0;
-    margin: auto;
-}
-
-.profileText {
-    padding-top: 8%
-}
-
-.aboutUs {
-    color: #7ECA9C;
-    display: block;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-/* .firstImageStrip {
-    height: 200px;
-} */
-
-.strip1 {
-    width: 100%
-    
-}
-
-.infoCards {
-    background-color: #7ECA9C !important;
-}
-
-.card {
-    border: 2px solid #40394A !important;
-    border-radius: 9px;
-}
-
-.card-title {
-    color: #7ECA9C;
-}
-
-.moreInfo {
-    background-color: #40394A;
-    color: #CCFFBD;
-}
 
 @media (max-width: 991px) {
     .profileText {
@@ -135,3 +129,14 @@ ul {
         text-align: center;
     }
 }
+
+/*
+ALL:
+add modal
+
+Mobile:
+add padding above cards
+
+Desktop:
+change height of strip1
+ */
