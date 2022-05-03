@@ -12,7 +12,7 @@ body {
 
 .header {
     text-align: center;
-    background-color: black;
+    background-color: #40394A;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .navbar {
-    background-color: black;
+    background-color: #40394A;
 }
 
 .navbar-toggler:focus,
@@ -31,23 +31,27 @@ body {
     box-shadow: none;
 }
 
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(204, 255, 189, 1.0)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+  
 .navbar-toggler {
     margin: auto;
 }
 
 .navbar-toggler:hover {
-    border: 1px solid rgb(153,153,153) !important;
+    border: 1px solid #CCFFBD !important;
 }
 
 .nav-link {
-    color: rgb(153,153,153) !important;
+    color: #CCFFBD !important;
     font-weight: bold;
     padding-left: 3rem !important;
     padding-right:3rem !important;
 }
 
 .nav-link:hover {
-    color: white !important;
+    color: #1C1427 !important;
 }
 
 ul {
@@ -86,17 +90,23 @@ ul {
 }
 
 .aboutUs {
+    color: #7ECA9C;
     display: block;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .infoCards {
-    background-color: rgb(182, 182, 182) !important;
+    background-color: #CCFFBD !important;
 }
 
 .card {
-    border: 2px solid rgb(83, 83, 83) !important;
+    border: 2px solid #40394A !important;
+    border-radius: 9px;
+}
+
+.card-title {
+    color: #7ECA9C;
 }
 
 @media (max-width: 991px) {
