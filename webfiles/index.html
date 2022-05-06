@@ -107,11 +107,6 @@
         </div>
     </div>
 
-    <!-- image strip div -->
-    <!-- <div class="container-fluid  px-0 pt-2 pb-4 firstImageStrip">
-        <img src="img/strip1.jpg" class="strip1 img-fluid">
-    </div> -->
-
     <!-- info cards -->
     <div class="container-fluid pt-4 pb-5 infoCards">
         <div class="container">
@@ -137,7 +132,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card infoCard">
                         <div class="card-body">
                             <h5 class="card-title text-center">Equipment</h5>
                                 <p class="card-text">
@@ -172,6 +167,81 @@
         </div>
     </div>
 
+
+
+
+
+    <div class="container-fluid pt-5 pb-3 galleryContainer">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <a data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="0">
+                    <div class="card">
+                        <img src="img/gallery/01.png" class="d-block w-100" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <a data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="1">
+                    <div class="card">
+                        <img src="img/gallery/02.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <a data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="2">
+                    <div class="card">
+                        <img src="img/gallery/03.png" class="d-block w-100" alt="...">
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+                <a data-bs-toggle="modal" data-bs-target="#galleryModal" data-bs-slide-to="3">
+                    <div class="card">
+                        <img src="img/gallery/04.png" class="d-block w-100" alt="...">
+                    </div>
+                </a>
+            </div>
+
+            
+            <!-- Modal -->
+            <!-- <div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="gallery" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                            <div class="carousel-inner overflow-hidden">
+                                <div class="carousel-item active">
+                                    <img src="img/gallery/01.png" class="d-block w-100" alt="">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gallery/02.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gallery/03.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/gallery/04.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+
     <!-- footer -->
     <div class="container-fluid footer" id="footer">
         © <script>document.write(new Date().getFullYear())</script> Rotisserie Cuisine & Catering 
@@ -181,7 +251,8 @@
     </div>
 
 
-    <!-- scripts for Bootstrap 4 -->
+    <!-- scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 </html>

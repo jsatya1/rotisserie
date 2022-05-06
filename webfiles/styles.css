@@ -79,6 +79,13 @@ ul {
 
 .infoCards {
     background-image: url("img/strip1.jpg");
+    /* 
+    credit:
+    Davide Cantelli
+    @cant89
+    https://unsplash.com/photos/jpkfc5_d-DI
+    Free to use under the Unsplash License
+    */
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -86,7 +93,7 @@ ul {
     align-items: center;
 }
 
-.card {
+.infoCard {
     border: 2px solid #40394A !important;
     border-radius: 9px;
 }
@@ -107,6 +114,10 @@ ul {
 
 .modal-body {
     text-align: left;
+}
+
+.screenshot {
+    
 }
 
 .footer {
@@ -149,6 +160,11 @@ ul {
 @media (min-width: 991px) {
     .infoCards {
         height: 400px;
+    }
+
+    .galleryContainer {
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 }
