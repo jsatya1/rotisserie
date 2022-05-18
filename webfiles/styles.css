@@ -127,26 +127,50 @@ ul {
     font-weight: bold;
 }
 
-.modal-body {
+/* previous design :: for reference */
+/* .modal-body {
     text-align: left;
+} */
+
+
+.carousel-header {
+    background-color: #40394A;
+    color: #7ECA9C;
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 2rem;
+    font-weight: bold;
+    border: none;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
 .galleryImage {
     object-fit: cover;
     height: 500px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
-#galleryModal {
-    height: 80vh;
+.img-fluid {
+    max-height: calc(100vh - 140px);
 }
 
+.modal-footer {
+    background-color: #40394A;
+    padding: 0;
+    border: 0;
+}
+
+/* commenting out for client input
 .carousel-control-prev-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CCFFBD' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
    }
    
 .carousel-control-next-icon {
      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23CCFFBD' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-   }
+}
+ */
 
 .footer {
     display: flex;
