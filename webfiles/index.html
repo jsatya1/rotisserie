@@ -59,9 +59,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
+                        <!-- reserved for additional webpages -->
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="#about">About</a>
                         </li>
@@ -183,7 +184,7 @@
 
 
     <!-- gallery -->
-    <div class="container pt-5 pb-3 galleryContainer" id="gallery">
+    <div class="container pt-5 pb-5 galleryContainer" id="gallery">
         <div class="carousel-header">Gallery</div>
             <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -303,44 +304,77 @@
     
 
     <!-- contact form -->
-    <div class="container-fluid text-center heading" id="contact">
+    <div class="container-fluid text-center heading pt-4" id="contact">
         Contact us for a custom quote for your next event!
     </div>
     <div class="container pb-5 contactForm">
         <form>
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col-lg-6">
                     <label for="name" class="form-label"></label>
                     <input type="text" class="form-control" id="name" placeholder="Name (Required)" required>
                 </div>
-                <div class="col col-lg-6">
+                <div class="col-lg-6">
                     <label for="email" class="form-label"></label>
                     <input type="email" class="form-control" id="email" placeholder="Email (Required)" required>
                 </div>
             </div>
-
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col-lg-6">
                     <label for="phone" class="form-label"></label>
                     <input type="tel" class="form-control" id="phone" placeholder="Phone Number (Required)" required>
                 </div>
-                <div class="col col-lg-6">
+                <div class="col-lg-6">
+                    <label for="location" class="form-label"></label>
+                    <input type="text" class="form-control" id="location" placeholder="Location of Event">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="guests" class="form-label"></label>
+                    <select id="guests" class="form-control" id="guests">
+                        <option value="aproxGuests">Approxiate Guests</option>
+                        <option value="050">0 - 50</option>
+                        <option value="50100">50 - 100</option>
+                        <option value="100150">100 - 150</option>
+                        <option value="over150">Over 150</option>
+                    </select>
+                </div>
+                <div class="col-lg-6">
                     <label for="date" class="form-label"></label>
                     <input type="text" class="form-control" id="date" placeholder="Date of Event"
                         onfocus="(this.type='date')"
                         onblur="(this.type='text')">
                 </div>
-            </div>            
-
-        </div>
-            <button type="submit" class="btn customBtn my-5">Submit</button>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="eventType" class="form-label"></label>
+                    <input type="text" class="form-control" id="eventType" placeholder="Type of Event">
+                </div>
+                <div class="col-lg-6">
+                    <label for="setup" class="form-label"></label>
+                    <select id="setup" class="form-control" id="setup">
+                        <option value="setupNeeded">Setup Required</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        <option value="unknown">Unknown</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="notes" class="form-label"></label>
+                    <textarea class="form-control" id="notes" name="notes" placeholder="Notes" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="container-fluid px-0 py-2 d-flex justify-content-end">
+                <button type="submit" class="btn customBtn my-3">Submit</button>
+            </div>
         </form>
     </div>
 
-
-
-
-
+    
     <!-- footer -->
     <div class="container-fluid footer" id="footer">
         © <script>document.write(new Date().getFullYear())</script> Rotisserie Cuisine & Catering 

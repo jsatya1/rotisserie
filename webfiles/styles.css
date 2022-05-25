@@ -194,7 +194,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #40394A;
+    color: white;
+}
 
+cite {
+    color: white;
 }
 
 /* form styling */
