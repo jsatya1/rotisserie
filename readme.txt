@@ -1,5 +1,20 @@
 working replacement site for client at https://www.rotisseriecuisineandcatering.com/
 
+REMAINING:
+----------
+PHP for form
+sample menus
+update footer with icons phone email
+
+06-01-2022
+----------
+menu page
+   header / footer
+   splash image
+   infoCard
+   new Google Fonts
+   general layout
+
 05-25-2022
 ----------
 completed form fields

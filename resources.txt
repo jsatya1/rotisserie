@@ -1,0 +1,13 @@
+resources:
+https://unsplash.com/s/photos/food
+https://colorhunt.co/palette/ccffbd7eca9c40394a1c1427
+https://colorhunt.co/palette/f3c892fff1bda3da8d146356
+https://colorhunt.co/palette/f7f7e8c7cfb79dad7f557174
+
+https://getbootstrap.com/docs/5.0/content/images/
+https://getbootstrap.com/docs/5.0/components/buttons/
+https://getbootstrap.com/docs/5.0/components/carousel/
+https://getbootstrap.com/docs/5.0/components/modal/
+https://www.codeply.com/p/nBRkzTzOCH
+https://getbootstrap.com/docs/5.0/components/carousel/
+https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/
