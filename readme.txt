@@ -3,8 +3,12 @@ working replacement site for client at https://www.rotisseriecuisineandcatering.
 REMAINING:
 ----------
 PHP for form
-sample menus
+strip2 for menu page
 update footer with icons phone email
+
+06-07-2022
+----------
+sample menus ocmpleted
 
 06-01-2022
 ----------

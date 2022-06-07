@@ -216,9 +216,9 @@ cite {
     background-image: url("img/strip2.jpg");
     /* 
     credit:
-    Lily Banse
-    @lvnatikk
-    https://unsplash.com/photos/-YHSwy6uqvk
+    Victoria Shes
+    @victoriakosmo
+    https://unsplash.com/photos/UC0HZdUitWY
     Free to use under the Unsplash License
     */
     background-repeat: no-repeat;
@@ -230,7 +230,17 @@ cite {
 
 .menuTitle {
     font-family: 'Courgette', cursive;
-    font-size: xx-large
+    font-size: xx-large;
+    color: #7ECA9C;
+}
+
+.menuSection {
+    font-size: large;
+    font-weight: bold;
+}
+
+.menuDesc {
+    font-size: small;
 }
 
 /* @media styling */
