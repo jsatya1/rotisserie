@@ -5,6 +5,8 @@ REMAINING:
 PHP for form
 strip2 for menu page
 update footer with icons phone email
+“catering which includes all types of cuisine” (requested by client)
+“co- owner Kimmy Addiego is a certified nutritionist” (requested by client)
 
 06-07-2022
 ----------
